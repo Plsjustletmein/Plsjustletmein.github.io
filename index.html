@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Bowman Stevens' Web Page!!!</title>
+        <style>
+            body {
+                background: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(125, 5, 129);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(125, 5, 129);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--All Content goes here-->
+        <div id ="all-contents">
+            <nav>
+                <h1>Bowman's Absolutely Preposterous Website!!!</h1>
+                <ul id ="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <liclass="nav-li">
+                        <a href="portfolio.html">Portfolio</a>
+                    </li> 
+                </ul>
+            </nav>
+            <main>
+                <!--Sidebar section-->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://sneakernews.com/wp-content/uploads/2021/08/air-jordan-36-xxxvi-first-light-CZ2650-004-1.jpg">
+                </div>
+                <!--Content section-->
+                <div class="content">
+                    <h2>Bowman Stevens</h2>
+                    <p>Student at East Acension High</p>
+                    <!--Interest section-->
+                    <div>
+                        <h3>Interest</h3>
+                        <ul id="interest">
+                            <li>Trail Riding</li>
+                            <li>Photoshop</li>
+                            <li>Sneaker Collecting</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
